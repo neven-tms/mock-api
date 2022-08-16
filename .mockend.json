@@ -1,14 +1,5 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
+  "otp": {
+    "verify": { "string": ["151125","371718","125818","581588","588175","182383","883833"] },
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
 }
